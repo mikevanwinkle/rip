@@ -1,0 +1,13 @@
+[project]
+name = "rip"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httptools>=0.6.4",
+    "orjson>=3.10.12",
+    "starlette>=0.41.3",
+    "uvicorn>=0.32.1",
+    "uvloop>=0.21.0",
+]
